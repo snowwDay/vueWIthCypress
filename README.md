@@ -6,4 +6,5 @@ The test visits each page and does some actions.
 2. npx cypress open
 3. Click E2E Testing
 4. Select browser
-5. Should be good to go
+5. Click on the spec file
+6. Should be good to go
