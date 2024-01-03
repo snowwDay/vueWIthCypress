@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Home Page</h1>
+    </header>
+    <section id="events">
+        <h2>Enter Your Name</h2>
+        <input type="text" v-model="name">
+        <p>{{welcome}}</p>
+        <button v-on:click="resetInput">Reset Input</button>
+        <a href="counter.html">Next Page</a>
+      </form>
+    </section>
+  </body>
+</html>
